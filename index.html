@@ -95,7 +95,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -124,20 +124,7 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
+
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,8 +135,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+The emergence of large models, also known as foundation models, has brought significant advancements to AI research. One such model is Segment Anything (SAM), which is designed for image segmentation tasks. However, as with other foundation models, our experimental findings suggest that SAM may fail or perform poorly in certain segmentation tasks, such as shadow detection and camouflaged object detection. This study first paves the way for applying the large pre-trained image segmentation model SAM to these downstream tasks, even in situations where SAM performs poorly. Rather than fine-tuning the SAM network, we propose SAM-Adaptor, which incorporates domain-specific information or visual prompts into the segmentation network by using simple yet effective adaptors. Our extensive experiments show that SAM-Adaptor can significantly elevate the performance of SAM in challenging tasks and we can even achieve state-of-the-art performance.  We believe our work opens up opportunities for utilizing SAM in downstream tasks, with potential applications in various fields, including medical image processing, agriculture, remote sensing, and more.          </p>
         </div>
       </div>
     </div>
@@ -165,107 +151,39 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/figmain.png" alt="SAM-Adaptor"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          The architecture of the SAM-Adaptor.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/concealed.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+        The Visualization Results of Camouflaged Image Segmentation. As illustrated in the figure, the SAM failed to perceive those animals that are visually ‘hidden’/concealed in their natural surroundings. By using SAM-adaptor, our approach can significantly elevate the performance of object segmentation with SAM.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/concealed3.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         The Visualization Results of Shadow Detection. As illustrated in the figure, the SAM failed to distinguish the shadow and the background object. By using SAM-adaptor, our approach can significantly elevate the performance of object segmentation with SAM.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+    
   </div>
 </div>
 </div>
 </section>
 <!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
+<!-- Paper full -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+      <h2 class="title">Full Paper</h2>
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/adaptor.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -278,7 +196,7 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>TBD</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -291,9 +209,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            KOKONI, Moxin Tech. (Huzhou) Co., LTD. 
           </p>
 
         </div>
